@@ -1,0 +1,88 @@
+.notepad-container {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #040312;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h5 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="file"] {
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+input[type="text"]:focus, input[type="file"]:focus, button[type="submit"]:focus {
+  outline: none;
+  border-color: #0077FF;
+  box-shadow: 0 0 3px #0077FF;
+}
+
+.note-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.note-item {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 2px solid #02031f90;
+  border: 1px solid #ddd;
+}
+
+.note-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.media-container {
+  margin-top: 10px;
+}
+
+.media-item {
+  max-width: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0077FF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button {
+  font-size: 16px;
+  padding: 5px 10px;
+  background-color: #a50101;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #e40000;
+}
