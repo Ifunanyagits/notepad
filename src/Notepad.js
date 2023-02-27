@@ -51,7 +51,7 @@ class Notepad extends React.Component {
     return (
       <div className="notepad-container">
         <h1>Notepad</h1>
-        <h5>(Tip - Enter a name for your media files before you add)</h5>
+        <h5>(Tip - Name your media files before you add)</h5>
         <form onSubmit={(e) => { e.preventDefault(); this.addNote(); }}>
           <input type="text" value={noteText} onChange={this.handleNoteTextChange} placeholder="Enter a note" required/>
           <input type="file" accept="image/*,video/*" multiple onChange={this.handleMediaUpload} />
